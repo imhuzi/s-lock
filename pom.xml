@@ -13,7 +13,7 @@
         <module>redis</module>
         <module>zookeeper</module>
         <module>etcd</module>
-        <module>s-lock-spring-boot-starter</module>
+        <module>spring-boot-starter</module>
     </modules>
 
     <properties>

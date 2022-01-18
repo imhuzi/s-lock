@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>s-lock-spring-boot-starter</artifactId>
+    <artifactId>spring-boot-starter</artifactId>
 
     <properties>
         <maven.compiler.source>15</maven.compiler.source>

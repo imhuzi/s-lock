@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="s-lock-spring-boot-starter" />
+        <module name="spring-boot-starter" />
         <module name="zookeeper" />
         <module name="redis" />
         <module name="etcd" />

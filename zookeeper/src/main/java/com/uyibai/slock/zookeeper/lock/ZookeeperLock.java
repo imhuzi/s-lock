@@ -12,6 +12,12 @@ import java.util.concurrent.TimeUnit;
  */
 public class ZookeeperLock extends BaseSimpleLock {
 
+    /**
+     * zookeeper base path
+     */
+    private String basePath = "/slock";
+
+
     public ZookeeperLock(String key, String value, TimeUnit timeUnit, boolean reentrant) {
         super(key, value, timeUnit, reentrant);
     }

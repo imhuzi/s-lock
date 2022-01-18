@@ -1,2 +1,2 @@
 # s-lock 
-s(imple)-lock  轻量实现，简单使用# s-lock
+Simple Lock(s-lock)  轻量实现，使用简单

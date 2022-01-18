@@ -5,7 +5,7 @@ package com.uyibai.slock.exception;
  * @version : 1.0
  * @date : 2022/1/11
  */
-public class SlockException extends Exception {
+public class SimpleLockException extends Exception {
 
     private static final long serialVersionUID = 1L;
 
@@ -14,19 +14,19 @@ public class SlockException extends Exception {
     final Object result;
 
 
-    public SlockException(String message, Throwable cause) {
+    public SimpleLockException(String message, Throwable cause) {
         super(message, cause);
         this.code = null;
         this.result = null;
     }
 
-    public SlockException(String message) {
+    public SimpleLockException(String message) {
         super(message);
         this.code = null;
         this.result = null;
     }
 
-    public SlockException(String message, int httpCode) {
+    public SimpleLockException(String message, int httpCode) {
         super(message + "(" + httpCode + ")");
         this.code = httpCode;
         this.result = null;
